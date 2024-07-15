@@ -7,7 +7,7 @@ on:
 env:
   TF_CLOUD_ORGANIZATION: "LearningAcademy"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
-  TF_WORKSPACE: "learn-terraform-github-actions"
+  TF_WORKSPACE: "terraform-complete-cd"
   CONFIG_DIRECTORY: "./"
 
 jobs:
