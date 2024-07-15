@@ -23,7 +23,7 @@ provider "aws" {
   region = "eu-central-1"
 }
 
-tags {
+tags = {
   Name = "complete-cd-attempt"
 }
 
