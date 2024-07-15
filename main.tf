@@ -23,6 +23,10 @@ provider "aws" {
   region = "eu-central-1"
 }
 
+tags {
+  Name = "complete-cd-attempt"
+}
+
 #resource "random_pet" "sg" {}
 
 # data "aws_ami" "ubuntu" {
